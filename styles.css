@@ -5,6 +5,9 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     min-width: 290px;
@@ -73,7 +76,33 @@ ul {
 
 #main-doc{
     position: absolute;
-    margin-left: 310px;
-    padding: 20px;
-    margin-bottom: 110px;
+    margin-left: 295px;
+    margin-top: 0;
+    
 }
+
+
+section{
+    
+    height: 100vh;
+    
+
+}
+
+
+
+
+/* ---- HOME ---- */
+
+.homepage{
+    background-color: var(--grey);
+    padding: 0;
+    margin: 0;
+}
+
+
+.homeLogo{
+    max-width: 400px;
+    margin-left: 30%
+}
+
