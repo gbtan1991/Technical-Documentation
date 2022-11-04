@@ -67,10 +67,12 @@ header{
 
 
 
-#header{
-    text-align: center;
+
+
+h2 a{
+    display: block;
     padding: 0px 10px;
-    
+    text-align: center;
 }
 
 
@@ -83,7 +85,7 @@ header{
 }
 
 
-section h3{
+.main-section h3{
     color: var(--dark-cyan);
 }
 
@@ -111,4 +113,8 @@ nav ul li a{
 nav ul li:hover{
     background-color: var(--dark-cyan);
     color: var(--white)
+}
+
+section p a{
+    color: var(--dark-cyan);
 }
